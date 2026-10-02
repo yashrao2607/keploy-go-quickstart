@@ -13,6 +13,7 @@ import FilePreview from '@/components/FilePreview';
 import TerminalBlock from '@/components/TerminalBlock';
 import CodeBlock from '@/components/CodeBlock';
 import RegressionDiff from '@/components/RegressionDiff';
+import Collapse from '@/components/Collapse';
 
 const components = {
   WorkflowProgress,
@@ -24,18 +25,18 @@ const components = {
   TerminalBlock,
   CodeBlock,
   RegressionDiff,
+  Collapse,
   h1: (props: any) => (
     <h1
       id="introduction"
+      className="tutorial-hero-title"
       style={{
         fontSize: '2.5rem',
         fontWeight: 850,
         letterSpacing: '-0.035em',
-        lineHeight: 1.18,
+        lineHeight: 1.2,
         marginBottom: '1.25rem',
-        background: 'linear-gradient(135deg, #ffffff 40%, #94a3b8 100%)',
-        WebkitBackgroundClip: 'text',
-        WebkitTextFillColor: 'transparent',
+        color: 'var(--text-primary)',
       }}
       {...props}
     />

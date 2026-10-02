@@ -112,6 +112,18 @@ h1, h2, h3, h4, h5, h6 {
   line-height: 1.25;
 }
 
+.tutorial-hero-title {
+  color: var(--text-primary) !important;
+}
+
+[data-theme="light"] .tutorial-hero-title {
+  color: #0f172a !important;
+}
+
+[data-theme="dark"] .tutorial-hero-title {
+  color: #f8fafc !important;
+}
+
 p {
   margin-bottom: 1.25rem;
   color: var(--text-secondary);
